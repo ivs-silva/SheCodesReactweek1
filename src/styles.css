@@ -1,0 +1,50 @@
+:root {
+  --main-color: #333cec;
+  --main-display: center;
+  --secondary-color: #3a75eb;
+}
+
+.container {
+  color: var(--main-color);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 100px;
+}
+
+.name {
+  font-size: 60px;
+}
+
+.profession {
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+.button {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  border: 1px solid #2677a0;
+  padding: 15px;
+}
+
+.about-page {
+  display: flex;
+  flex-direction: column;
+}
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
